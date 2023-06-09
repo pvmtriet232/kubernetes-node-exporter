@@ -14,7 +14,7 @@ NODES=${1:-$DEFAULT_NODES}
 
 eksctl create cluster \
 --name $CLUSTER_NAME \
---version 1.19 \
+--version 1.25 \
 --region $REGION \
 --nodegroup-name my-nodes \
 --node-type $NODE_TYPE
